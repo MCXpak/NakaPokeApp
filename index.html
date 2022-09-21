@@ -7,19 +7,26 @@
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Pokemon App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form id="pokemon-form">
-        <input id="pokemon-input" type="">
-        <button id="pokemon-input-button">Search</button>
-    </form>
-    <h1 id="pokemon-name"></h1>
-    <img id="poke-img-front" src="" alt="">
-    <img id="poke-img-back" src="" alt="">
-    <h2>Moves:</h2>
-    <ul id="move-list">
-
-    </ul>
-    <button id="next-button">Next Pokemon</button>
+    <div id="main">
+        <form id="pokemon-form">
+            <input id="pokemon-input" type="">
+            <button id="pokemon-input-button">Search</button>
+        </form>
+        <h1 id="pokemon-name"></h1>
+        <div id="img-div">
+            <img id="poke-img-front" src="" alt=""><img id="poke-img-back" src="" alt="">
+        </div>
+        <h2>Moves:</h2>
+        <ul id="move-list">
+    
+        </ul>
+        <button id="next-button">Next Pokemon</button>
+    </div>
+    
 </body>
 </html>
